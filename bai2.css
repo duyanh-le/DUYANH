@@ -1,0 +1,45 @@
+
+.col-25{
+	width:25%;
+	float: left;
+}
+.prod{
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	position:  relative;
+}
+.prod>.name{
+	font-variant: small-caps;
+	color: orangered;
+}
+.prod>.image{
+	max-width: 98%;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.prod>.price{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-variant: small-caps;
+	font-size: 25px;
+	color: red;
+
+}
+.prod>.icons{
+	width: 5%;
+	position: absolute;
+	right: 20px;
+	bottom: 5px;
+	
+
+}
+.prod>.new-icon{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20%;
+}
